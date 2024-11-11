@@ -226,6 +226,9 @@ span {
 .project-box:hover img {
     transform: scale(1.1);
 }
+.Mentoring-box img{
+    height: 300px !important ;
+}
 
 .project-box .project-layer {
     position: absolute;
@@ -278,10 +281,13 @@ span {
     font-size: 2rem;
     color: var(--second-bg-color);
 }
-    
+    /* Mentoring */
+    .Mentoring{
+        background-color: var(--second-bg-color) !important;
+    }
 
 .contact {
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .contact h2 {
